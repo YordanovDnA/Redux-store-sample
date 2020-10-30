@@ -1,5 +1,6 @@
 import axios from "axios";
 import * as actions from "../api";
+import config from '../../config.json';
 
 const api = ({ dispatch }) => (next) => async (action) => {
   if (action.type !== actions.apiCallBegan.type) return next(action);
@@ -12,7 +13,7 @@ const api = ({ dispatch }) => (next) => async (action) => {
 
   try {
     const response = await axios.request({
-      baseURL: "http://localhost:9002/api", //The base url you will send HTTP requests to. You can use environment variables to set this dinamically.
+      baseURL: config.BASE_URL, //The base url you will send HTTP requests to. You can use environment variables to set this dinamically.
       url,
       method,
       data,

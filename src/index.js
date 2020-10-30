@@ -12,7 +12,7 @@ import {
   removeUser,
 } from "./store/users";
 import  axios  from 'axios';
-import config from  "../config.json";
+import config from  "./config.json";
 
 const store = configureStore();
 
@@ -36,7 +36,7 @@ const runActions = () =>{
   // UI Layer
   
   //Getting all users
-  
+
   store.dispatch(loadUsers());
   
   //Add new user

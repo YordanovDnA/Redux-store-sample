@@ -1,5 +1,4 @@
 import { createSlice } from "@reduxjs/toolkit";
-import { createSelector } from "reselect";
 import { apiCallBegan } from "./api";
 import moment from "moment";
 
@@ -117,4 +116,3 @@ export const changeUserPassword = (id, password) =>
 // Selector
 
 // Memoization
-// bugs => get unresolved bugs from the cache

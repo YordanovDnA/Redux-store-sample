@@ -1,14 +1,14 @@
 {
-  "name": "redux-starter",
+  "name": "redux-store-sample",
   "version": "1.0.0",
-  "description": "Redux Starter Project",
+  "description": "Sample Redux store for development usage",
   "main": "index.js",
   "scripts": {
     "start": "webpack-dev-server --config ./webpack.config.js",
     "test": "jest"
   },
   "keywords": [],
-  "author": "Mosh Hamedani",
+  "author": "Iliyan Yordanov",
   "license": "ISC",
   "devDependencies": {
     "webpack": "4.41.6",
@@ -22,6 +22,7 @@
     "immutable": "^4.0.0-rc.12",
     "lodash": "^4.17.20",
     "moment": "^2.24.0",
+    "react-redux": "^7.2.2",
     "redux": "^4.0.5",
     "redux-devtools-extension": "^2.13.8",
     "reselect": "^4.0.0"

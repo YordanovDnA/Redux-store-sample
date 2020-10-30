@@ -1,0 +1,4 @@
+{
+  "BASE_URL": "https://redux-store-sample-api.herokuapp.com/api",
+  "TEST_URL": "https://redux-store-sample-api.herokuapp.com/api/users"
+}

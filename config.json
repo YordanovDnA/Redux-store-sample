@@ -1,4 +1,0 @@
-{
-    "BASE_URL": "http://localhost:9002/api",
-    "TEST_URL": "http://localhost:9002/api/users"
-}

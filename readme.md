@@ -28,6 +28,34 @@ Use the documention to start.
 
 [Documentation](https://)
 
+**Quick start:**
+
+Clone the repository
+
+```bash
+git clone https://github.com/YordanovDnA/Redux-store-sample.git
+```
+
+Navigate in the project folder
+
+```bash
+cd Redux-store-sample
+```
+
+Install the dependencies
+
+```bash
+npm install
+```
+
+Run the application
+
+```bash
+npm start
+```
+
+The application will start on: [http://localhost:9000/](http://localhost:9000/)
+
 ## Contributing
 
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
